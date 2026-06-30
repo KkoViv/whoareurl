@@ -34,7 +34,7 @@ The base program flow is:
 ```text
 1. Parse user input with argparse
 2. Store parsed input in a shared data container
-3. Create the custom HTTPRedirectHandler class
+3. Create the custom HTTP redirect handler class
 4. Run the function that creates the HTTP request and receives responses
 5. Store extracted response data as a list of response data sets
 6. Run the analysis function on the collected data
@@ -88,8 +88,8 @@ Planned components:
 
 - `main`: orchestrates the program flow.
 - `checkport`: validates the port value passed through `argparse`.
-- `a_data`: stores data shared between program functions.
-- `my_handler`: module for the custom class used to work with `HTTPRedirectHandler`.
+- `SharedData`: stores data shared between program functions.
+- `http_redirect_handler`: module for `CustomHttpRedirectHandler`, the custom class used to work with `HTTPRedirectHandler`.
 - `redirection`: creates the HTTP request and collects response data.
 - `analyze`: analyzes the collected response data.
 - `display`: displays analysis results.

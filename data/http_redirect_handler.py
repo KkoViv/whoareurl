@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# File Description :
+# File Description : custom HTTP redirect handler used by urllib.request
 
 # General pipeline:
 # - 
@@ -21,14 +21,7 @@
 # FUNCTIONS
 ###################################
 
-def main():
-    pass
-
-
-
-###################################
-# FILE ENTRY POINT
-###################################
-
-if __name__ == "__main__":
-    main()
+class CustomHttpRedirectHandler:
+    def __init__(self):
+        print(f"CustomHttpRedirectHandler")
+        return

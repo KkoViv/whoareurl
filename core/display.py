@@ -21,14 +21,6 @@
 # FUNCTIONS
 ###################################
 
-def main():
-    pass
-
-
-
-###################################
-# FILE ENTRY POINT
-###################################
-
-if __name__ == "__main__":
-    main()
+def display():
+    print(f"display")
+    return

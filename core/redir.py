@@ -21,14 +21,6 @@
 # FUNCTIONS
 ###################################
 
-def main():
-    pass
-
-
-
-###################################
-# FILE ENTRY POINT
-###################################
-
-if __name__ == "__main__":
-    main()
+def redir():
+    print(f"redir")
+    return
